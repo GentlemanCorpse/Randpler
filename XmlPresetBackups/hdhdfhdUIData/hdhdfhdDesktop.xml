@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptButton" id="btnLoad" x="40.0" y="30.0" isMomentary="1"
+             width="100.0" height="30.0"/>
+  <Component type="ScriptButton" id="btnRnd" x="400.0" y="90.0" isMomentary="1"/>
+  <Component type="ScriptButton" id="btnChaos" x="200.0" y="10.0"/>
+  <Component type="ScriptSlider" id="knbSus" x="90.0" y="150.0"/>
+  <Component type="ScriptSlider" id="knbAttack" x="230.0" y="150.0"/>
+  <Component type="ScriptButton" id="btnRandrev" x="210.0" y="80.0"/>
+</ContentProperties>
