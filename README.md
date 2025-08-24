@@ -7,4 +7,4 @@ WIN.VST3
 
 Features are:
 
-https://github.com/GentlemanCorpse/Randpler/blob/main/Images/Randpler%20overview.PNG?raw=true
+![Alt text](https://github.com/GentlemanCorpse/Randpler/blob/main/Images/Randpler%20overview.PNG?raw=true)
