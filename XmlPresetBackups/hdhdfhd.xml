@@ -23,50 +23,50 @@
             <ContentProperties DeviceType="Desktop">
               <Component type="ScriptImage" id="imgBackground" x="0.0" y="0.0" height="200.0"
                          width="600.0" enabled="0" fileName="{PROJECT_FOLDER}Background/Frame 1.png"/>
-              <Component type="ScriptFloatingTile" id="fltTooltip" x="420.0" y="180.0"
-                         width="180.0" height="20.0" ContentType="TooltipPanel" bgColour="4281874488"
+              <Component type="ScriptFloatingTile" id="fltTooltip" x="420.0" y="130.0"
+                         width="180.0" height="30.0" ContentType="TooltipPanel" bgColour="4281874488"
                          itemColour="872415231" itemColour2="0" textColour="3439329279"
                          FontSize="12.0"/>
-              <Component type="ScriptAudioWaveform" id="AudioWaveform1" x="0.0" y="0.0"
-                         processorId="Alp0" width="300.0" height="100.0" bgColour="4278190080"
+              <Component type="ScriptAudioWaveform" id="AudioWaveform1" x="0.0" y="10.0"
+                         processorId="Alp0" width="340.0" height="130.0" bgColour="4278190080"
                          itemColour="0" itemColour2="4285605414" textColour="0" itemColour3="11218992"
                          tooltip="waveform" enabled="0">
                 <Component type="ScriptPanel" id="pnlBlackBorderWaveform" x="0.0" y="0.0"
-                           width="300.0" height="100.0" bgColour="4278190080" itemColour="0"
+                           width="340.0" height="130.0" bgColour="4278190080" itemColour="0"
                            itemColour2="0" textColour="4278190080" borderRadius="0.0" parentComponent="AudioWaveform1"/>
               </Component>
-              <Component type="ScriptButton" id="btnLoad" x="100.0" y="100.0" isMomentary="1"
+              <Component type="ScriptButton" id="btnLoad" x="50.0" y="150.0" isMomentary="1"
                          processorId="Script Processor1" parameterId="btnLoad" width="40.0"
                          height="40.0" textColour="0" itemColour="0" itemColour2="0" bgColour="0"
                          mouseCursor="CrosshairCursor" tooltip="load folder." filmstripImage="{PROJECT_FOLDER}Icons/Group 1.png"
                          scaleFactor="0.5"/>
-              <Component type="ScriptButton" id="btnRnd" x="160.0" y="100.0" isMomentary="1"
+              <Component type="ScriptButton" id="btnRnd" x="100.0" y="150.0" isMomentary="1"
                          processorId="Script Processor1" parameterId="btnRnd" width="40.0"
                          height="40.0" itemColour="0" itemColour2="0" textColour="0" bgColour="0"
                          text="Dice" mouseCursor="CrosshairCursor" filmstripImage="{PROJECT_FOLDER}Icons/Group 2.png"
                          tooltip="random sample." scaleFactor="0.5"/>
-              <Component type="ScriptButton" id="btnChaos" x="50.0" y="150.0" processorId="Script Processor1"
+              <Component type="ScriptButton" id="btnChaos" x="150.0" y="150.0" processorId="Script Processor1"
                          parameterId="btnChaos" width="40.0" height="40.0" filmstripImage="{PROJECT_FOLDER}Icons/Group 3.png"
                          mouseCursor="CrosshairCursor" tooltip="CHAOS!%&quot;@" textColour="0"
                          itemColour2="0" itemColour="0" bgColour="0" scaleFactor="0.5"/>
-              <Component type="ScriptButton" id="btnRandrev" x="210.0" y="150.0" width="40.0"
+              <Component type="ScriptButton" id="btnRandrev" x="200.0" y="150.0" width="40.0"
                          height="40.0" processorId="Script Processor1" parameterId="btnRandrev"
                          filmstripImage="{PROJECT_FOLDER}Icons/btnReverse.png" scaleFactor="0.5"
                          mouseCursor="CrosshairCursor" tooltip="Random Reverse"/>
-              <Component type="ScriptButton" id="btnPitch" x="300.0" y="0.0" width="40.0"
+              <Component type="ScriptButton" id="btnPitch" x="250.0" y="150.0" width="40.0"
                          height="40.0" processorId="Alp0" parameterId="PitchTracking"
                          mouseCursor="CrosshairCursor" filmstripImage="{PROJECT_FOLDER}Icons/Group 4.png"
                          scaleFactor="0.5" tooltip="activate pitch tracking." textColour="0"
                          itemColour2="0" itemColour="0" bgColour="0"/>
-              <Component type="ScriptSlider" id="knbSus" x="250.0" y="100.0" middlePosition="-12.0"
+              <Component type="ScriptSlider" id="knbSus" x="290.0" y="150.0" middlePosition="-12.0"
                          processorId="Alp0AHDSR" max="0.0" parameterId="Sustain" width="50.0"
-                         height="50.0" numStrips="16.0" textColour="0" itemColour2="0"
+                         height="40.0" numStrips="16.0" textColour="0" itemColour2="0"
                          itemColour="0" bgColour="0" showTextBox="0" scaleFactor="0.5"
                          tooltip="sustain." min="-100.0" deferControlCallback="1" filmstripImage="{PROJECT_FOLDER}Icons/knob.png"
                          isVertical="0"/>
-              <Component type="ScriptSlider" id="knbAttack" x="0.0" y="100.0" mode="Time"
+              <Component type="ScriptSlider" id="knbAttack" x="0.0" y="150.0" mode="Time"
                          max="20000.0" stepSize="1.0" suffix=" ms" middlePosition="1000.0"
-                         width="50.0" height="50.0" numStrips="16.0" showTextBox="0" tooltip="attack."
+                         width="50.0" height="40.0" numStrips="16.0" showTextBox="0" tooltip="attack."
                          processorId="Alp0AHDSR" parameterId="Attack" itemColour2="0"
                          itemColour="0" bgColour="0" textColour="0" filmstripImage="{PROJECT_FOLDER}Icons/knob.png"
                          isVertical="0" scaleFactor="0.5"/>
@@ -76,10 +76,11 @@
               <Component type="ScriptImage" id="ledWhite1" x="537.0" y="20.0" scale="0.25"
                          width="20.0" height="20.0" fileName="{PROJECT_FOLDER}Icons/Frame 12.png"
                          enabled="0" visible="0"/>
-              <Component type="ScriptLabel" id="lblLogo" x="530.0" y="140.0" text="Randpler"
-                         width="70.0" height="20.0" fontName="Lucida Fax" editable="0"/>
-              <Component type="ScriptPanel" id="pnlLogo" x="531.0" y="140.0" width="70.0"
-                         height="20.0" borderSize="0.0" borderRadius="0.0" allowCallbacks="Clicks Only"
+              <Component type="ScriptLabel" id="lblLogo" x="420.0" y="160.0" text="Randpler"
+                         width="180.0" height="40.0" fontName="Lucida Fax" editable="0"
+                         fontSize="32.0"/>
+              <Component type="ScriptPanel" id="pnlLogo" x="420.0" y="160.0" width="180.0"
+                         height="40.0" borderSize="0.0" borderRadius="0.0" allowCallbacks="Clicks Only"
                          allowDragging="1"/>
               <Component type="ScriptFloatingTile" id="fltAbout" x="200.0" y="0.0" Data="{&#10;  &quot;CopyrightNotice&quot;: &quot;&quot;,&#10;  &quot;ShowVersion&quot;: true,&#10;  &quot;BuildDate&quot;: true,&#10;  &quot;WebsiteURL&quot;: &quot;https://github.com/GentlemanCorpse/Randpler&quot;,&#10;  &quot;ShowProductName&quot;: true&#10;}"
                          ContentType="AboutPagePanel" bgColour="4278190080" itemColour="4285822068"
@@ -117,7 +118,7 @@
     </Processor>
     <Processor Type="AudioLooper" ID="Alp0" Bypassed="0" Gain="0.25" Balance="0.0"
                VoiceLimit="256.0" KillFadeTime="20.0" IconColour="0" SyncMode="1.0"
-               PitchTracking="0.0" LoopEnabled="0.0" RootNote="75.0" SampleStartMod="0.0"
+               PitchTracking="0.0" LoopEnabled="0.0" RootNote="50.0" SampleStartMod="0.0"
                Reversed="0.0" FileName="0" min="0" max="0" loopStart="0" loopEnd="0">
       <ChildProcessors>
         <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
@@ -155,6 +156,10 @@
                   <ChildProcessors/>
                 </Processor>
               </ChildProcessors>
+            </Processor>
+            <Processor Type="Velocity" ID="Velocity Modulator1" Bypassed="0" Intensity="1.0"
+                       UseTable="1.0" Inverted="0.0" DecibelMode="0.0" VelocityTableData="">
+              <ChildProcessors/>
             </Processor>
           </ChildProcessors>
         </Processor>
