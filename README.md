@@ -3,6 +3,8 @@ Silly little sample player with randomizers.
 
 WIN.VST3
 
+For FLStudio: activate "make bridged" for better stability.
+
 Please note: Crashes in FLStudio, loud clipping spike at start of first play of sample, reloading project forgets the path and again loud clipping noise when starting to play and possiblity to crash.
 If you have other expierience please let me know, I can only test with my Surface 9 and FLStudio, Ableton and Waveform.
 
